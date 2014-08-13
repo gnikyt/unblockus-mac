@@ -7,7 +7,7 @@ Shoes.app title: 'Unblock-Us Mac', width: 250, height: 250 do
         services = stdout.gets(nil).split("\n").drop(1)
 
         # List network services.
-        para 'Netwrok Service:'
+        para 'Network Service:'
         services_box = list_box items: services, margin: [0, 0, 0, 10]
 
         # Ask for sudo password.
